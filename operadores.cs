@@ -22,5 +22,23 @@ namespace Calculadora1
             return zresult;
         }
 
+      public double getresta()
+        {
+            double zresult;
+            zresult = xnum1 - ynum2;
+            return zresult;
+        }
+        public double getmultiplo()
+        {
+            double zresult;
+            zresult = xnum1 * ynum2;
+            return zresult;
+        }
+        public double getdivisor()
+        {
+            double zresult;
+            zresult = xnum1 / ynum2;
+            return zresult;
+        }
     }
 }
