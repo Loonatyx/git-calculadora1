@@ -1,0 +1,11 @@
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\bin\Debug\netcoreapp3.1\Calculadora1.exe
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\bin\Debug\netcoreapp3.1\Calculadora1.deps.json
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\bin\Debug\netcoreapp3.1\Calculadora1.runtimeconfig.json
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\bin\Debug\netcoreapp3.1\Calculadora1.runtimeconfig.dev.json
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\bin\Debug\netcoreapp3.1\Calculadora1.dll
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\bin\Debug\netcoreapp3.1\Calculadora1.pdb
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\obj\Debug\netcoreapp3.1\Calculadora1.csprojAssemblyReference.cache
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\obj\Debug\netcoreapp3.1\Calculadora1.AssemblyInfoInputs.cache
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\obj\Debug\netcoreapp3.1\Calculadora1.AssemblyInfo.cs
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\obj\Debug\netcoreapp3.1\Calculadora1.dll
+C:\Users\MARIA ISABEL MELO\Desktop\GiHub\Calculadora1\obj\Debug\netcoreapp3.1\Calculadora1.pdb
