@@ -118,14 +118,58 @@ namespace Calculadora1
                         break;
                     case "5":
                         Console.WriteLine("Has seleccionado realizar una potenciacion");
+                        Console.WriteLine("\n");
+                        string valor9, valor10; // crea 2 variables de tipo string.
+                        Console.WriteLine("ingrese el primer valor"); //muestra en la consola el texto dentro de las comillas.
+                        Console.WriteLine("\n"); //crea un salto de linea.
+                        valor9 = Console.ReadLine(); //recibe el valor que ingresemos en la consola y lo guarda en la variable valor7.
+                        Console.WriteLine("\n");
+                        Console.WriteLine("ingrese el segundo valor");
+                        Console.WriteLine("\n");
+                        valor10 = Console.ReadLine(); //recibe el valor que ingresemos en la consola y lo guarda en la variable valor8.
+                        Console.WriteLine("\n");
+
+                        operadores potenciado = new operadores(valor9, valor10);
+                        double elevado;
+
+                        elevado = potenciado.getpotencia();
+                        Console.WriteLine("El resultado de elevar " + valor9 + " a la " + valor10 + " potencia es {0}", elevado);
                         Console.ReadKey();
                         break;
                     case "6":
-                        Console.WriteLine("Has seleccionado obtener una raiz cuadrada");
+                        Console.WriteLine("Has seleccionado obtener la raiz de una cantidad subradical de indice 2");
+                        Console.WriteLine("\n");
+                        string valor11;
+                        Console.WriteLine("Ingrese la cantidad subradical");
+                        Console.WriteLine("\n");
+                        valor11 = Console.ReadLine();
+                        Console.WriteLine("\n");
+
+                        operadores raizq = new operadores(valor11);
+                        double quadrada;
+
+                        quadrada = raizq.getraiz();
+                        Console.WriteLine("El resultado de radicar " + valor11 + " al indice 2 es {0}", quadrada);
                         Console.ReadKey();
                         break;
                     case "7":
-                        Console.WriteLine("Has seleccionado obtener un porcentaje");
+                        Console.WriteLine("Has seleccionado obtener un porcentaje");                       
+                        Console.WriteLine("\n");
+                        string valor12, valor13; // crea 2 variables de tipo string.
+                        Console.WriteLine("Ingresa el numero del cual quieres obtener el porcentaje"); //muestra en la consola el texto dentro de las comillas.
+                        Console.WriteLine("\n"); //crea un salto de linea.
+                        valor12 = Console.ReadLine(); //recibe el valor que ingresemos en la consola y lo guarda en la variable valor12.
+                        Console.WriteLine("\n");
+                        Console.WriteLine("Ingresa el porcentajes del numero que deseas obtener");
+                        Console.WriteLine("\n");
+                        valor13 = Console.ReadLine(); //recibe el valor que ingresemos en la consola y lo guarda en la variable valor13.
+                        Console.WriteLine("\n");
+
+                        operadores porciento = new operadores(valor12, valor13);
+                        double porcentaje;
+
+                        porcentaje = porciento.getpromedio();
+                        Console.WriteLine("El " + valor13 + "% de " + valor12 + " es: {0}", porcentaje);
                         Console.ReadKey();
                         break;
                     case "8":
